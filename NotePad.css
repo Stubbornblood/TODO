@@ -1,0 +1,62 @@
+
+body {
+    background-image: url("./pexels-prateek-katyal-2740956.jpg");
+    background-color: #cccccc;
+    background-size:100rem;
+   }
+.header{
+
+  text-align: center;
+  letter-spacing: -1px;
+  color: white;
+  font-size: 1.5em;
+  font-family: "Arial Black", sans-serif;
+  background-color: black;
+  color: white;
+  
+  
+}
+.flex-parent {
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#text{
+  margin-top: 5rem;
+  border-radius: 10px;
+      height:30px; 
+      
+      
+}
+#btn{
+    margin-top: 5rem;
+    border-radius: 10px;
+    height:30px;
+}
+  
+.box {
+      margin: 0.1rem;
+      border: none;
+}
+li{
+  min-height: 1rem;
+  width: 24rem;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  background-color: white;
+  border:1px solid black;
+  padding: 0.5rem;
+  border-radius: 10px;
+  word-break: break-all;
+  display: flex;
+  align-items: center;
+  
+  
+  
+}
+
+.delete{
+  color: red;
+}
